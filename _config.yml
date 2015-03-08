@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            monopool
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme based on Monokai and Poole.'
+url:               https://github.com/coderiot/monopool
+baseurl:           /monopool
+
+author:
+  name:           'peterr'
+  url:            https://github.com/coderiot
+
+paginate:         2
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/coderiot/monopool
