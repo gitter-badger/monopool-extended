@@ -1,26 +1,51 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+########################################
+######  User Level Settings Here  ######
+########################################
+### Site Meta ###
+title:            Mono-Ex
+tagline:          'I do what I do'
+description:      'My own little corner of the internet'
+url:               http://justsomedood.github.io/monopool-extended
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            monopool
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme based on Monokai and Poole.'
-url:               https://github.com/coderiot/monopool
-baseurl:           /monopool
-
+### Author Info ###
 author:
-  name:           'peterr'
-  url:            https://github.com/coderiot
+name: 'Ken Harkey'
+url:  http://twitter.com/KenHarkey
 
-paginate:         2
+### Sidebar Social Links ###
+github:   http://github.com/JustSomeDood
+googleplus:  http://plus.google.com/+KenHarkey
+twitter: http://twitter.com/KenHarkey
+facebook:   http://facebook.com/ken.harkey
 
-# Custom vars
-version:          1.0.0
+########################################
+###### Global Settings Start Here ######
+########################################
 
-github:
-  repo:           https://github.com/coderiot/monopool
+### Content Settings ###
+permalink: /:categories/:year/:month/:day/:title
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+relative_permalinks: false
+excerpt_separator: ""
+paginate:  10
+
+### Markdown Parser and Options ###
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+
+highlighter: pygments
+
+### Theme Rev ###
+version:          0.0.1s
+
 exclude: ["vendor"]
