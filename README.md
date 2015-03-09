@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JustSomeDood/monopool-extended.svg)](https://travis-ci.org/JustSomeDood/monopool-extended)
+[![Build Status](https://drone.io/github.com/JustSomeDood/monopool-extended/status.png)](https://drone.io/github.com/JustSomeDood/monopool-extended/latest)
 
 ## March 8 2015
 
