@@ -7,7 +7,7 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="{{ site.baseurl }}">Home</a>
+        <a href="/"><i class="fa fa-home">&emsp;&emsp;&emsp;Home</a></i>
       </li>
 
       {% comment %}
@@ -20,15 +20,18 @@
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+              <a href="{{ node.url }}"><i class="fa fa-user">&emsp;&emsp;&emsp;{{ node.title }}</a></i>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="{{ site.baseurl }}/archives">Archive</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
-      <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
+      <li class="sidebar-nav-item"><a href="/archives" target="_blank"><i class="fa fa-archive">&emsp;&emsp;&emsp;Archives</a></li></i>
+      <li class="sidebar-nav-item"><a href="{{ site.github }}" target="_blank"><i class="fa fa-github">&emsp;&emsp;&emsp;GitHub</a></li></i>
+      <li class="sidebar-nav-item"><a href="{{ site.googleplus }}" target="_blank"><i class="fa fa-google-plus">&emsp;&emsp;&emsp;GooglePlus</a></li></a></li></i>
+      <li class="sidebar-nav-item"><a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter">&emsp;&emsp;&emsp;Twitter</a></li></a></li></i>
+      <li class="sidebar-nav-item"><a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook-official">&emsp;&emsp;&emsp;Facebook</a></li></a></li></i>
+      <li class="sidebar-nav-item">Current Mood is Fabulous</li>
     </ul>
 
   </div>
