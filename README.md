@@ -2,6 +2,8 @@
 
 ## March 8 2015
 
+[![Join the chat at https://gitter.im/JustSomeDood/monopool-extended](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JustSomeDood/monopool-extended?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is the initial upload, so far what you will get if you were to use this theme is [monopool](https://github.com/coderiot/monopool) with tweaked fonts (now useing noto sans and source code pro{for code snippits}).  I have included highlight.js and added "read more" functionality.
 
 I also minified the sites css files (you can find the unminified files for easy editing in the extras folder)
