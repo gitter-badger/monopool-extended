@@ -46,6 +46,6 @@ kramdown:
 highlighter: pygments
 
 ### Theme Rev ###
-version:          0.0.1s
-
+version:          0.1.0
 exclude: ["vendor"]
+BASE_PATH : http://justsomedood.github.io/monopool-extended
